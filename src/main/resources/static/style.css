@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    text-align: center;
+    padding: 20px;
+}
+h2 { color: #007bff; }
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 70%;
+    background: #fff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+th {
+    background: #007bff;
+    color: #fff;
+}
+#searchInput {
+    width: 50%;
+    padding: 8px;
+    margin: 10px;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+}
+#loading {
+    color: #ff6600;
+    font-weight: bold;
+}
